@@ -3,74 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Violet Store - Online Shopping</title>
+  <title>Stake Clone - Modern UI/UX</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <!-- Header -->
   <header>
     <div class="container">
-      <h1>Violet Store</h1>
+      <div class="logo">
+        <h1>Stake Clone</h1>
+      </div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#shop">Shop</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#promotions">Promotions</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
-      <div class="cart-icon">
-        <span id="cart-count">0</span>
-        <i class="fas fa-shopping-cart"></i>
+      <div class="auth-buttons">
+        <button class="btn-login">Login</button>
+        <button class="btn-signup">Sign Up</button>
       </div>
     </div>
   </header>
 
+  <!-- Hero Section -->
   <section id="home" class="hero">
     <div class="container">
-      <h2>Welcome to Violet Store</h2>
-      <p>Discover the best products with amazing deals!</p>
-      <a href="#shop" class="btn">Shop Now</a>
+      <h2>Welcome to Stake Clone</h2>
+      <p>Experience the thrill of modern gaming with the best UI/UX.</p>
+      <button class="btn-primary">Get Started</button>
     </div>
   </section>
 
-  <section id="shop" class="products">
+  <!-- Games Section -->
+  <section id="games" class="games">
     <div class="container">
-      <h2>Our Products</h2>
-      <div class="product-grid">
-        <div class="product-card">
-          <img src="https://via.placeholder.com/200" alt="Product 1">
-          <h3>Product 1</h3>
-          <p>$19.99</p>
-          <button class="add-to-cart">Add to Cart</button>
+      <h2>Popular Games</h2>
+      <div class="game-grid">
+        <div class="game-card">
+          <img src="https://via.placeholder.com/300x200" alt="Game 1">
+          <h3>Game 1</h3>
+          <p>Play now and win big!</p>
         </div>
-        <div class="product-card">
-          <img src="https://via.placeholder.com/200" alt="Product 2">
-          <h3>Product 2</h3>
-          <p>$29.99</p>
-          <button class="add-to-cart">Add to Cart</button>
+        <div class="game-card">
+          <img src="https://via.placeholder.com/300x200" alt="Game 2">
+          <h3>Game 2</h3>
+          <p>Exciting challenges await!</p>
         </div>
-        <div class="product-card">
-          <img src="https://via.placeholder.com/200" alt="Product 3">
-          <h3>Product 3</h3>
-          <p>$39.99</p>
-          <button class="add-to-cart">Add to Cart</button>
+        <div class="game-card">
+          <img src="https://via.placeholder.com/300x200" alt="Game 3">
+          <h3>Game 3</h3>
+          <p>Test your luck today!</p>
         </div>
       </div>
     </div>
   </section>
 
-  <footer id="contact">
+  <!-- Promotions Section -->
+  <section id="promotions" class="promotions">
     <div class="container">
-      <p>&copy; 2025 Violet Store. All rights reserved.</p>
-      <ul>
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <h2>Promotions</h2>
+      <div class="promo-grid">
+        <div class="promo-card">
+          <h3>Welcome Bonus</h3>
+          <p>Get a 100% bonus on your first deposit!</p>
+        </div>
+        <div class="promo-card">
+          <h3>Daily Rewards</h3>
+          <p>Claim your daily rewards and boost your balance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Stake Clone. All rights reserved.</p>
+      <ul class="social-links">
         <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-discord"></i></a></li>
         <li><a href="#"><i class="fab fa-instagram"></i></a></li>
       </ul>
     </div>
   </footer>
 
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
